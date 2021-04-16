@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <title>Nosh | Shruti Bhavsar</title>
+    <meta name="author" content="Shruti Bhavsar">
+    <meta name="description" content="I’m a UI/UX Designer based in Maharsahtra, India.">
+    <meta name="keywords" content="freelance, ui designer, ux designer, Maharashtra, freelance designer, designer, Indian designer">
+    <link rel="stylesheet" type="text/css" href="typesettings.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body class="work-page work-peppy">
+
+    <div class="wrapper" data-typesettings>
+
+      <div class="container">
+
+        <header class="header">
+            <div class="logo">
+              <a href="/">Shruti Bhavsar</a>
+            </div>
+            <ul class="nav text-right">
+              <li><a href="/">Work</a></li>
+              <li><a href="#contact">Contact me</a></li>
+            </ul>
+          </header> 
+
+        <section class="work-intro">
+          <h1>Nosh</h1>
+          <p>Cinema is a web based OTT platform for streaming movies and TV shows. Cinema is Designed keeping in mind that TV shows and Movies of multiple Languages will be streamed on this Platform.</p>
+          <p>Cinema was completely designed on Figma and the motivation and thought behind designing Cinema is the rising usage of OTT Platforms. The UI/UX is designed as such that the usabilty is as simple as possible without loosing the touch of modern elements.</p>
+        </section>
+
+        <section>
+          <img src="images/nosh/first.png">
+        </section>
+
+        <section class="work-challenge">
+          <h2>The Design</h2>
+          <p>Below are the Images showing the designs for Nosh.</p>
+          
+        </section>
+
+        <section class="work-images">
+          <figure>
+            <img src="images/nosh/nosh.png">
+            <figcaption>This is the page after selecting a movie and ready to be played.</figcaption>
+          </figure>
+        </section>
+        <section class="work-images">
+          <figure>
+            <img src="images/nosh/recipes.png">
+            <figcaption>Content page showing the movies and TV shows collection.</figcaption>
+          </figure>
+        </section>
+        <section class="work-images">
+          <figure>
+            <img src="images/nosh/shrimp pasta.png">
+            <figcaption>The Login Screen</figcaption>
+          </figure>
+        </section>
+       
+
+       
+
+        
+        <section class="back-to-home">
+          <p><a href="/">&larr; Back to home</a></p>
+        </section>
+
+      </div>
+
+      <section class="cta">
+        <div class="container" id="contact">
+          <h2>Contact Me</h2>
+          <p>Get in touch via <a href="mailto:bhavsar9009@gmail.com.com">email</a> or <a href="https://www.linkedin.com/in/shruti-bhavsar-a462a2205/">LinkedIn</a>, and let’s discuss how I can help you.</p>
+          <br>
+          <div class="row">
+            <div>
+            <img src="images/email.png" style="height: 30px;width: 30px;">
+            </div>
+            <div>
+              &nbsp;&nbsp;bhavsar9009@gmail.com
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div>
+              <img src="images/phone-call.png"  style="height: 30px;width: 30px;">
+            </div>
+            <div>
+              &nbsp;&nbsp;9022032743
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="column">
+              <p><small>&copy; <script>document.write(new Date().getFullYear())</script> Shruti Bhavsar</small></p>
+            </div>
+            <div class="column text-right">
+              <a href="https://www.linkedin.com/in/shruti-bhavsar-a462a2205/"><img src="images/linkedin.svg" alt="LinkedIn"></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="css3-mediaqueries.js"></script>
+
+    <script>
+      $(function() {
+          $('a[href*=\\#]:not([href=\\#])').on('click', function() {
+              var target = $(this.hash);
+              target = target.length ? target : $('[name=' + this.hash.substr(1) +']');
+              if (target.length) {
+                  $('html,body').animate({
+                      scrollTop: target.offset().top
+                  }, 1000);
+                  return false;
+              }
+          });
+      });
+      </script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+  
+  </body>
+</html>
